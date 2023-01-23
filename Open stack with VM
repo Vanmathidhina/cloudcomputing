@@ -1,0 +1,20 @@
+Download ubuntu 
+https://ubuntu.com/download/desk top
+Download virtual box
+https://www.virtualbox.org/wiki/Download
+Open terminal 
+sudo apt update && sudo apt upgrade -y
+sudo snap refresh
+Disable and stop fire wall, network manager
+#sudosu-
+# systemctl disable firewalld
+#systemctl stop firewalld
+#systemctl disable NetworkManager
+#systemctl stop NetworkManager
+#systemctl enable network
+#systemctl start network
+#yum install -y https://rdoproject.org/repos/rdo-release.rpm
+#yum update-y
+#yum install -y openstack-packstack
+#packstak --allinone
+#cat keystonerc_admin
