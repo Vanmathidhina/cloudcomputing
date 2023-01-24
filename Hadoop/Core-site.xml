@@ -45,3 +45,10 @@ Yarn-site.xml
 
 Hadoop-env.cmd
 Set "JAVA_HOME=C:\Java" (On C:\java this is path to file jdk.18.0)
+
+
+hdfs name node -formate
+Cd c:hadoop/shin
+Start -all.cmd
+
+Open local host at 8088
